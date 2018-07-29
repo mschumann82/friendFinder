@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 
+
 // Sets up the Express App
 // =============================================================
 const app = express();
@@ -11,12 +12,16 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// app.get("/", function(req, res) {
+//   res.sendFile(path.join(__dirname, "/public/home.html"));
+// });
 
 
+const htmlRoutes = require("./routing/htmlRoutes");
+const apiRoutes = require("./routing/apiRoutes");
 
-
-
-
+app.use('/', htmlRoutes);
+app.use('/api', apiRoutes);
 
 
 
