@@ -1,8 +1,8 @@
-
-let friends = [
+//friends are characters based off the tv show rick and morty.
+let friends = [ 
     {
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+    "name": "Rick",
+    "photo": "https://imgix.ranker.com/user_node_img/4269/85371973/original/rick-sanchez-u2?w=87&h=87&fit=crop&crop=faces&q=60&fm=jpg",
     "scores": [
     "5",
     "1",
@@ -17,8 +17,8 @@ let friends = [
     ]
     },
     {
-    "name": "Jacob Deming",
-    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+    "name": "Morty",
+    "photo": "https://imgix.ranker.com/user_node_img/4269/85371974/original/morty-smith-u2?w=87&h=87&fit=crop&crop=faces&q=60&fm=jpg",
     "scores": [
     "4",
     "2",
@@ -33,8 +33,8 @@ let friends = [
     ]
     },
     {
-    "name": "Jeremiah Scanlon",
-    "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+    "name": "Mr. Meeseeks",
+    "photo": "https://imgix.ranker.com/user_node_img/4269/85371975/original/mr-meeseeks-u2?w=87&h=87&fit=crop&crop=faces&q=60&fm=jpg",
     "scores": [
     "5",
     "2",
@@ -49,8 +49,8 @@ let friends = [
     ]
     },
     {
-    "name": "Louis T. Delia",
-    "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+    "name": "Jerry Smith",
+    "photo": "https://imgix.ranker.com/user_node_img/4269/85371984/original/jerry-smith-u2?w=87&h=87&fit=crop&crop=faces&q=60&fm=jpg",
     "scores": [
     "3",
     "3",
@@ -65,8 +65,8 @@ let friends = [
     ]
     },
     {
-    "name": "Lou Ritter",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+    "name": "Squanchy",
+    "photo": "https://imgix.ranker.com/user_node_img/4269/85371980/original/squanchy-u2?w=87&h=87&fit=crop&crop=faces&q=60&fm=jpg",
     "scores": [
     "4",
     "3",
@@ -81,8 +81,8 @@ let friends = [
     ]
     },
     {
-    "name": "Jordan Biason",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+    "name": "Birdperson",
+    "photo": "https://imgix.ranker.com/user_node_img/4269/85371977/original/birdperson-u2?w=87&h=87&fit=crop&crop=faces&q=60&fm=jpg",
     "scores": [
     "4",
     "4",
