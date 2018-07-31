@@ -57,7 +57,7 @@ router.post("/friends", function(req, res) {
 
  function values() {
   for (let h = 0; h < (sums.length -1); h++) {
-    difference(sums[h], sums[h + 1]);
+    difference(sums[h], sums.slice(-1));
     
 
   }
