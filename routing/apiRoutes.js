@@ -3,6 +3,8 @@ const bodyParser = require("body-parser");
 //const path = require("path");
 
 const friends = require("./../app/data/friends");
+let sums = [];
+
 
 
 // app.use(bodyParser.urlencoded({ extended: true }));
@@ -23,9 +25,51 @@ router.post("/friends", function(req, res) {
 
       friends.push(friend);
       res.json(true); 
+
+      loops();
+      
+      
+        
       
   
  });
+
+ function loops() {
+  for (let i = 0; i < friends.length; i++) {
+    let array = [];
+    for (let j = 0; j < friends[i].scores.length; j++) {
+      let result = parseInt(friends[i].scores[j]);
+      // console.log(result);
+      
+      array.push(result);
+      
+      
+    }
+    // console.log(friends[i].scores.reduce(getSum));
+    //console.log(array.reduce(getSum));
+    sums.push(array.reduce(getSum));
+    console.log(sums);
+    
+    
+  }
+  values();
+ }
+
+ function values() {
+  for (let h = 0; h < (sums.length -1); h++) {
+    difference(sums[h], sums[h + 1]);
+    
+
+  }
+ }
+
+ function getSum(total, num) {
+  return total + num;
+}
+
+function difference(a, b) {
+  console.log(Math.abs(a - b));
+}
 
  module.exports = router;
 
