@@ -21,7 +21,8 @@ router.post("/friends", function(req, res) {
   console.log(friend);
 
       friends.push(friend);
-      
+      sums = [];
+      diffArr = [];
       
       
 
