@@ -1,6 +1,5 @@
 const router = require("express").Router();
-const bodyParser = require("body-parser");
-//const path = require("path");
+
 
 const friends = require("./../app/data/friends");
 
