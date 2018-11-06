@@ -2,6 +2,18 @@
 
 The friend finder is a Rick and Morty themed app. For those unfamiliar with the show "squanch" can replace any noun. The app takes in answers to the survey questions and compares them against existing friends/squanches in the friends.js file. Scores are compared and then returns your best match.
 
+Landing Page:
+
+
+
+Survey Page:
+
+
+
+Results:
+
+
+
 Technologies used:
 
 Node.js
