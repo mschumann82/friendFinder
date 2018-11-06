@@ -4,15 +4,15 @@ The friend finder is a Rick and Morty themed app. For those unfamiliar with the 
 
 Landing Page:
 
-
+![friendlanding](https://user-images.githubusercontent.com/37599851/48037150-77398580-e128-11e8-87c8-1dff153f6564.jpg)
 
 Survey Page:
 
-
+![survey](https://user-images.githubusercontent.com/37599851/48037168-7e609380-e128-11e8-93fc-fd45418851fc.jpg)
 
 Results:
 
-
+![friendresult](https://user-images.githubusercontent.com/37599851/48037169-80c2ed80-e128-11e8-9113-aa2146941463.jpg)
 
 Technologies used:
 
